@@ -1,0 +1,58 @@
+:root {
+    /*Font Weights*/
+    --fw-regular: 500;
+    --fw-medium: 700;
+    --fw-bold: 900;
+
+    /*Primary Colors*/
+    --blue-1: hsl(225, 100%, 94%);
+    --blue-3: hsl(245, 75%, 52%);
+
+    /*Neutrals*/
+    --blue-0: hsl(225, 100%, 98%);
+    --blue-2: hsl(224, 23%, 55%);
+    --blue-4: hsl(223, 47%, 23%);
+}
+
+html {    
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+
+    text-align: center;
+
+    background-color: var(--blue-1);
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 350px;
+
+    background-color: #fff;
+    /*border: 1px solid red;*/
+    border-radius: 1.25rem;
+
+}
+
+.hero-img {
+    width: 350px;
+    border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.plan {
+    width: 300px;
+    margin: auto;
+    background-color: var(--blue-0);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /*Take note. Icon and plan are closer to each other than the "Change" link*/
+}
