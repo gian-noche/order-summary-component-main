@@ -34,7 +34,7 @@ body {
 }
 
 .card {
-    max-width: 350px;
+    max-width: 325px;
 
     background-color: #fff;
     /*border: 1px solid red;*/
@@ -43,16 +43,42 @@ body {
 }
 
 .hero-img {
-    width: 350px;
+    width: 325px;
     border-radius: 1.25rem 1.25rem 0 0;
 }
 
+h1, p {
+    color: var(--blue-4);
+    font-weight: var(--fw-regular);
+}
+
+h1 {
+    font-size: 1.35rem;
+    font-weight: var(--fw-bold);
+
+    margin-top: 2rem;
+}
+
+.description {
+    color: var(--blue-2);
+    
+    margin: auto 1.5rem 1.5rem;
+
+    line-height: 1.75rem;
+}
+
 .plan {
-    width: 300px;
-    margin: auto;
+    width: 280px;
+    height: 80px;
+    margin: 1.5rem auto;
     background-color: var(--blue-0);
+    border-radius: 0.75rem;
 
     display: flex;
     align-items: center;
     justify-content: space-evenly; /*Take note. Icon and plan are closer to each other than the "Change" link*/
+}
+
+button {
+    width: 280px;
 }
