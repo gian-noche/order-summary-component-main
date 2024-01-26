@@ -79,6 +79,30 @@ h1 {
     justify-content: space-between; /*Take note. Icon and plan are closer to each other than the "Change" link*/
 }
 
+.cost {
+    margin-right: 1rem;
+}
+
+.plan p {
+    color: var(--blue-2);
+    line-height: 0.5rem;
+}
+
+span {
+    color: var(--blue-4);
+    font-weight: var(--fw-bold);
+}
+
+a {
+    font-size: 0.8rem;
+    font-weight: var(--fw-bold);
+    margin-right: 1rem;
+}
+
+.icon {
+    margin-left: 1rem;
+}
+
 button {
     width: 280px;
     padding: 1rem;
