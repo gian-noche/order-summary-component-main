@@ -17,12 +17,14 @@
 html {    
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
+    font-size: 16px;
 
     text-align: center;
 
     background-color: var(--blue-1);
     background-image: url(./images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 body {
@@ -34,16 +36,16 @@ body {
 }
 
 .card {
-    max-width: 325px;
+    width: 325px;
 
     background-color: #fff;
-    /*border: 1px solid red;*/
+
     border-radius: 1.25rem;
     box-shadow: 0px 20px 20px hsla(245, 75%, 52%, 0.1);
 }
 
 .hero-img {
-    width: 325px;
+    width: inherit;
     border-radius: 1.25rem 1.25rem 0 0;
 }
 
@@ -126,4 +128,19 @@ button {
 .cancel {
     background: none;
     color: var(--blue-2);
+}
+
+@media (min-width: 450px) {
+    .card {
+        width: min-content;
+    }
+
+    .description {
+        width: 70%;
+        margin: auto;
+    }
+
+    .plan, button {
+        width: 80%;
+    }
 }
