@@ -131,6 +131,10 @@ button {
 }
 
 @media (min-width: 450px) {
+    html {
+        background-image: url(./images/pattern-background-desktop.svg);
+    }
+
     .card {
         width: min-content;
     }
