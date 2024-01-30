@@ -82,7 +82,7 @@ h1 {
 }
 
 .cost {
-    margin-right: 1rem;
+    margin-left: -2rem;
 }
 
 .plan p {
@@ -142,6 +142,10 @@ button {
     .description {
         width: 70%;
         margin: auto;
+    }
+
+    .cost {
+        margin-left: -6rem;
     }
 
     .plan, button {
