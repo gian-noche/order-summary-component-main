@@ -158,12 +158,15 @@ button {
 a:hover {
     text-decoration: none;
     color: hsl(245, 83%, 68%);
+    cursor: pointer;
 }
 
 .pay:hover {
     background-color: hsl(245, 83%, 68%);
+    cursor: pointer;
 }
 
 .cancel:hover {
     color: var(--blue-4);
+    cursor: pointer;
 }
