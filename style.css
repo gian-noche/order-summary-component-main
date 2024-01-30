@@ -130,6 +130,7 @@ button {
     color: var(--blue-2);
 }
 
+/*Media query for desktop*/
 @media (min-width: 450px) {
     html {
         background-image: url(./images/pattern-background-desktop.svg);
@@ -151,4 +152,18 @@ button {
     .plan, button {
         width: 80%;
     }
+}
+
+/*Hover states*/
+a:hover {
+    text-decoration: none;
+    color: hsl(245, 83%, 68%);
+}
+
+.pay:hover {
+    background-color: hsl(245, 83%, 68%);
+}
+
+.cancel:hover {
+    color: var(--blue-4);
 }
